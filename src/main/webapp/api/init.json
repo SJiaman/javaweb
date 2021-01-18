@@ -1,0 +1,61 @@
+{
+  "clearInfo": {
+    "clearUrl": "api/clear.json"
+  },
+  "homeInfo": {
+    "title": "首页",
+    "icon": "fa fa-home",
+    "href": "page/welcome.jsp?t=1"
+  },
+  "logoInfo": {
+    "title": "图书管理系统",
+    "image": "images/logo.jpg",
+    "href": ""
+  },
+  "menuInfo": {
+    "currency": {
+      "title": "常规管理",
+      "icon": "fa fa-address-book",
+      "child": [
+        {
+          "title": "主页模板",
+          "href": "page/welcome.jsp",
+          "icon": "fa fa-home",
+          "target": "_self"
+        },
+        {
+          "title": "用户管理",
+          "href": "page/reader-info.jsp",
+          "icon": "fa fa-list-alt",
+          "target": "_self"
+        },
+        {
+          "title": "书籍管理",
+          "href": "page/book-info.jsp",
+          "icon": "fa fa-file-text",
+          "target": "_self"
+        },
+        {
+          "title": "借还书示例",
+          "href": "",
+          "icon": "fa fa-calendar",
+          "target": "_self",
+          "child": [
+            {
+              "title": "书籍表单",
+              "href": "page/book-form.jsp",
+              "icon": "fa fa-list-alt",
+              "target": "_self"
+            },
+            {
+              "title": "借书表单",
+              "href": "page/borrow-info.jsp",
+              "icon": "fa fa-navicon",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
